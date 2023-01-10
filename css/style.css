@@ -1,0 +1,415 @@
+/* common css start */
+/* :root{
+    --primary-color: #0f2f44;
+    --secondary-text-color:#444444;
+    --secondary-text-color: #222222;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "ubunto" , sans-serif;
+}
+h1,h2{
+    font-family: "abril fatface" , cursive;
+}
+p{
+    font-family: "open sans" , sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+/* common css end */
+/* header section css start */
+#header .top_bar{
+    background-color: #0f2f44;
+    color: #fefefe;
+}
+#header .top_bar .row{
+    justify-content: space-between;
+}
+#header .top_bar .top_bar_left,
+#header .top_bar .top_bar_right{
+    font-size:  16px;
+    font-weight: 400;    
+    color: #fefefe;    
+}
+#header_menu .logo{
+    width: 20%;
+} 
+#header #header_menu div.row{
+    width: 80%;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+    /* padding-left: 20px; */
+    /* text-align: right; */
+}
+#header #header_menu ul li a{
+    font-size: 16px ;
+    padding: 10px 20px;
+    color: #222222;
+    
+}
+#header #header_menu ul li button{
+   width: 30px;
+   height: 30px;
+   border: 1px solid #eee;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 10px;
+}
+/* header section css end */
+/* banner section css start */
+#banner{
+    background-image: url(../img/banner.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover; 
+}
+#banner .container{
+    margin: auto; 
+
+}
+#banner .banner_info{
+    width: 50%;
+    padding: 140px 0;
+    
+}
+#banner .banner_info h3{
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#banner .banner_info h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+    
+}
+#banner .banner_info h4{
+    font-size: 32px;
+    font-weight: 400 ;
+    color: #8484bf ;
+    letter-spacing: 15px;
+}
+#banner .banner_info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+#banner .banner_info button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #8484bf;
+    border: 1px solid #8484bf;
+    border-radius: 10px 10px;
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+/* banner section css end */
+/* about section css start */
+#about .about_item{
+    width: 50%;
+    padding: 10px 20px;
+}
+#about .about_item h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#about .about_item h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#about .about_item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#about .about_item a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    background-color: #ffc712;
+    border: 2px solid #ffc712;
+    padding: 5px 10px;
+    border-radius: 10px 10px;
+    margin: 20px 0;
+}
+#about .about_item button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px 10px;
+    margin: 20px 20px;
+    padding: 5px 10px;
+}
+/* about section css end */
+/* skill section css start */
+#skiil .skill_img{
+    width: 50%;
+}
+#skill .skill_item{
+    width: 50%;
+    text-align: right;
+}
+#skill .skill_item h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#skill .skill_item h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#skill .skill_item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#skill .skill_info .skill_info_item{
+    width: 85%;
+    
+}
+#skill .skill_info_item .p1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #0f2f44;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+#skill .skill_info_item .span1{
+    margin-left: 45px;
+}
+#skill .skill_bar_track{
+    height: 10px;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+#skill .skill_bar{
+    height: 10px;
+    background-color: #2a4896;
+    width: 90%;
+    margin-left: auto;
+    border-radius: 0 10px 10px 0;
+}
+#skill .skill_info_item .p2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    color: #0f2f44;
+    font-size: 14px;
+    font-weight: 500;
+}
+#skill .skill_info_item .span2{
+    margin-left: 45px;
+}
+#skill .skill_info_icon{
+    padding: 10px 0;
+    width: 70px;
+}
+#skill .skill_bar_track2{
+    height: 10px;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+#skill .skill_bar2{
+    height: 10px;
+    background-color: #5d3b15;
+    width: 85%;
+    margin-left: auto;
+    border-radius: 0 10px 10px 0;
+}
+#skill .skill_info_icon2{
+    padding: 10px 0;
+    width: 70px;
+}
+#skill .skill_info_item .p3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    color: #0f2f44;
+    font-size: 14px;
+    font-weight: 500;
+}
+#skill .skill_info_item .span3{
+    margin-left: 45px;
+}
+#skill .skill_bar_track3{
+    height: 10px;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+#skill .skill_bar3{
+    height: 10px;
+    background-color: #344a1f;
+    width: 75%;
+    margin-left: auto;
+    border-radius: 0 10px 10px 0;
+}
+#skill .skill_info_icon3{
+    padding: 10px 0;
+    width: 70px;
+}
+#skill .skill_info_item .p4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    color: #0f2f44;
+    font-size: 14px;
+    font-weight: 500;
+}
+#skill .skill_info_item .span4{
+    margin-left: 45px;
+}
+#skill .skill_bar_track4{
+    height: 10px;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+#skill .skill_bar4{
+    height: 10px;
+    background-color: #392960;
+    width: 80%;
+    margin-left: auto;
+    border-radius: 0 10px 10px 0;
+}
+#skill .skill_info_icon4{
+    padding: 10px 0;
+    width: 70px;
+}
+/* skill section css end */
+/* servics section css start */
+#servics .servics_title{
+   text-align: center;
+   padding-top: 150px;
+   padding-bottom: 20px;
+}
+#servics .servics_title h4{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#servics .servics_title h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#servics .servics_item{
+    width: calc(100% / 3);
+}
+#servics .servics_info{
+    width: 70%;
+    background-color: #e9e9e9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#servics .servics_info h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+}
+#servics .servics_info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+#servics .servics_part1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* servics section css end */
+/* portfolio section css start */
+#portfolio .portfolio_item{
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+#portfolio .portfolio_item h4{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#portfolio .portfolio_item h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#portfolio .portfolio_img{
+    /* width: ; */
+}
+#portfolio .portfolio_img a{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    background-color: #ffc712;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+/* portfolio section css end */
+/* testimonial section css start */
+#testimonial .testimonial_title{
+    text-align: center;
+    color: #0f2f44;
+    padding: 140px 0 30px 0;
+}
+#testimonial .testimonial_title h6{
+    font-size: 14px;
+    font-weight: 300;
+}
+#testimonial .testimonial_title h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+#testimonial .testimonial_info{ 
+    width: 30%;
+    color: #0f2f44;
+    padding: 30px 20px;
+    background-color: #e9e9e9;
+}
+#testimonial .testimonial_info p{
+    font-size: 14px;
+    font-weight: 400;
+}
+#testimonial .testimonial_info h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+#testimonial .testimonial_info h6{
+    font-size: 16px;
+    font-weight: 300;
+}
+/* testimonial section css end */
